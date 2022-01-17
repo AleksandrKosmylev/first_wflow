@@ -6,7 +6,4 @@ jobs:
     steps:
       - name: first
         run: echo "Hello World!"
-      - name: Add poetry
 	run: poetry add --dev flake8
-      - name: run poetry
-	run: poetry run flake8 brain_games
