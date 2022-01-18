@@ -1,3 +1,3 @@
 install:
-	poetry install
+	python3 --version
 
