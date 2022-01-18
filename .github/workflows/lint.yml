@@ -1,10 +1,17 @@
 name: lint
 on: push
 jobs:
-  my-job:
+  linter:
     runs-on: ubuntu-latest
     steps:
-      - name: first
-        run: |
+      - name: Run action/checkout@v2
+      - name: Set up Python 3.9
+          run: |
           python -m pip install --upgrade pip
           pip install flake8 pytest
+      - name: Install dependencies
+      - name: Run linter and pytest
+      - name: Test & publish coverage
+      - name: Post Run actions/checkout@v2
+      - name: Set up Python 3.9
+
