@@ -5,5 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: first
-        run: echo "Hello World!"
-	run: poetry add --dev flake8
+        run: echo "Hello Linter!"
