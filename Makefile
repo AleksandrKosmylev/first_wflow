@@ -1,3 +1,3 @@
 install:
-        poetry install
+	poetry install
 
